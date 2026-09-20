@@ -1,0 +1,15 @@
+{
+  "name": "trading-signal-dashboard",
+  "version": "1.0.0",
+  "description": "Tiny relay: receives BUY/SELL signals posted from the MT5 EA and serves a mobile-friendly PWA dashboard showing them.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
